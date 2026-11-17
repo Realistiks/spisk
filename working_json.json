@@ -1,0 +1,110 @@
+{
+  "_meta": {
+    "name": "VPN Screener: рабочие узлы из JSON-подписок",
+    "generated": "2026-11-17 20:31:49",
+    "count": 2
+  },
+  "log": {
+    "loglevel": "warning"
+  },
+  "inbounds": [
+    {
+      "tag": "mixed-in",
+      "listen": "127.0.0.1",
+      "port": 2080,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "auto",
+      "protocol": "selector",
+      "settings": {
+        "default": "screen-001",
+        "outbounds": [
+          "screen-001",
+          "screen-002"
+        ]
+      }
+    },
+    {
+      "tag": "screen-001",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "13e1cfg.plp1.h1cloud.net",
+            "port": 443,
+            "users": [
+              {
+                "id": "3ede439b-410f-4eae-b449-4e15064c0706",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "grpcSettings": {
+          "serviceName": "d5d6142b8b66",
+          "multiMode": false
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "13e1cfg.plp1.h1cloud.net",
+          "fingerprint": "chrome",
+          "publicKey": "cWC6AGVZ9ke_eCTWXEB-eLdf670CuoP9zP-1k8DrPxo",
+          "shortId": "8ae9cc8c9447c95a",
+          "spiderX": "/"
+        }
+      }
+    },
+    {
+      "tag": "screen-002",
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "195.133.135.238",
+            "port": 10086,
+            "users": [
+              {
+                "id": "b831381d-6324-4d53-ad4f-8cda48b30811",
+                "alterId": 0,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom"
+    }
+  ],
+  "route": {
+    "final": "auto"
+  }
+}
