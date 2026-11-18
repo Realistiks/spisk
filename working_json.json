@@ -1,8 +1,8 @@
 {
   "_meta": {
     "name": "VPN Screener: рабочие узлы из JSON-подписок",
-    "generated": "2026-11-18 20:29:03",
-    "count": 3
+    "generated": "2026-11-18 23:33:31",
+    "count": 17
   },
   "log": {
     "loglevel": "warning"
@@ -28,7 +28,21 @@
         "outbounds": [
           "screen-001",
           "screen-002",
-          "screen-003"
+          "screen-003",
+          "screen-004",
+          "screen-005",
+          "screen-006",
+          "screen-007",
+          "screen-008",
+          "screen-009",
+          "screen-010",
+          "screen-011",
+          "screen-012",
+          "screen-013",
+          "screen-014",
+          "screen-015",
+          "screen-016",
+          "screen-017"
         ]
       }
     },
@@ -38,11 +52,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "961ec0g.nl17.h1clayd.click",
-            "port": 443,
+            "address": "45.144.49.138",
+            "port": 1152,
             "users": [
               {
-                "id": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
+                "id": "e18f77f3-e518-4c8c-b230-c79e3708c7f4",
                 "encryption": "none"
               }
             ]
@@ -50,21 +64,21 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "xhttp",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60
         },
-        "grpcSettings": {
-          "serviceName": "7d5abcd7d8a1",
-          "multiMode": false
+        "xhttpSettings": {
+          "path": "/",
+          "mode": "auto"
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "961ec0g.nl17.h1clayd.click",
-          "fingerprint": "qq",
-          "publicKey": "xn7KVKS5MOnsFrYrEeRS04JssBCOxh12rxegaDFyGkA",
-          "shortId": "6d289ff0f47c0aac"
+          "serverName": "in.tradingview.com",
+          "fingerprint": "safari",
+          "publicKey": "Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE",
+          "shortId": "ead6bdba606219a2"
         }
       }
     },
@@ -74,11 +88,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "961ec0g.nl17.h1clayd.click",
-            "port": 443,
+            "address": "45.144.49.138",
+            "port": 1152,
             "users": [
               {
-                "id": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
+                "id": "e18f77f3-e518-4c8c-b230-c79e3708c7f4",
                 "encryption": "none"
               }
             ]
@@ -86,21 +100,21 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "xhttp",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60
         },
-        "grpcSettings": {
-          "serviceName": "7d5abcd7d8a1",
-          "multiMode": false
+        "xhttpSettings": {
+          "path": "/",
+          "mode": "auto"
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "961ec0g.nl17.h1clayd.click",
-          "fingerprint": "chrome",
-          "publicKey": "xn7KVKS5MOnsFrYrEeRS04JssBCOxh12rxegaDFyGkA",
-          "shortId": "6d289ff0f47c0aac"
+          "serverName": "in.tradingview.com",
+          "fingerprint": "qq",
+          "publicKey": "Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE",
+          "shortId": "ead6bdba606219a2"
         }
       }
     },
@@ -110,7 +124,43 @@
       "settings": {
         "vnext": [
           {
-            "address": "961ec0g.nl17.h1clayd.click",
+            "address": "45.144.49.138",
+            "port": 1152,
+            "users": [
+              {
+                "id": "e18f77f3-e518-4c8c-b230-c79e3708c7f4",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/",
+          "mode": "auto"
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "in.tradingview.com",
+          "fingerprint": "chrome",
+          "publicKey": "Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE",
+          "shortId": "ead6bdba606219a2"
+        }
+      }
+    },
+    {
+      "tag": "screen-004",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "0592efg.us8.h1clayd.click",
             "port": 443,
             "users": [
               {
@@ -128,15 +178,503 @@
           "tcpKeepAliveInterval": 60
         },
         "grpcSettings": {
-          "serviceName": "7d5abcd7d8a1",
+          "serviceName": "99f2107b03f8",
           "multiMode": false
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "961ec0g.nl17.h1clayd.click",
+          "serverName": "0592efg.us8.h1clayd.click",
+          "fingerprint": "ios",
+          "publicKey": "cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk",
+          "shortId": "bd8f712209a9c283"
+        }
+      }
+    },
+    {
+      "tag": "screen-005",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "0592efg.us8.h1clayd.click",
+            "port": 443,
+            "users": [
+              {
+                "id": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "grpcSettings": {
+          "serviceName": "99f2107b03f8",
+          "multiMode": false
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "0592efg.us8.h1clayd.click",
+          "fingerprint": "firefox",
+          "publicKey": "cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk",
+          "shortId": "bd8f712209a9c283"
+        }
+      }
+    },
+    {
+      "tag": "screen-006",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "tun2.minoosell.ir",
+            "port": 1152,
+            "users": [
+              {
+                "id": "e18f77f3-e518-4c8c-b230-c79e3708c7f4",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/",
+          "mode": "auto",
+          "extra": {
+            "scMaxEachPostBytes": "1000000",
+            "scMinPostsIntervalMs": "30",
+            "xPaddingBytes": "100-1000"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "in.tradingview.com",
           "fingerprint": "safari",
-          "publicKey": "xn7KVKS5MOnsFrYrEeRS04JssBCOxh12rxegaDFyGkA",
-          "shortId": "6d289ff0f47c0aac"
+          "publicKey": "Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE",
+          "shortId": "ead6bdba606219a2",
+          "spiderX": "/"
+        }
+      }
+    },
+    {
+      "tag": "screen-007",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "35295cx.us8.h1clayd.click",
+            "port": 443,
+            "users": [
+              {
+                "id": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/1812842934d4",
+          "mode": "auto"
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "35295cx.us8.h1clayd.click",
+          "fingerprint": "chrome",
+          "publicKey": "LsaTohbE6CqCH9UbYKwIybVXG3E5Wgz_X9czqas2LAI",
+          "shortId": "9acff4d98e2fbcc6"
+        }
+      }
+    },
+    {
+      "tag": "screen-008",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "0592efg.us8.h1clayd.click",
+            "port": 443,
+            "users": [
+              {
+                "id": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "grpcSettings": {
+          "serviceName": "99f2107b03f8",
+          "multiMode": false
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "0592efg.us8.h1clayd.click",
+          "fingerprint": "chrome",
+          "publicKey": "cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk",
+          "shortId": "bd8f712209a9c283"
+        }
+      }
+    },
+    {
+      "tag": "screen-009",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "tun2.minoosell.ir",
+            "port": 1152,
+            "users": [
+              {
+                "id": "e18f77f3-e518-4c8c-b230-c79e3708c7f4",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/",
+          "mode": "auto",
+          "extra": {
+            "scMaxEachPostBytes": "1000000",
+            "scMinPostsIntervalMs": "30",
+            "xPaddingBytes": "100-1000"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "in.tradingview.com",
+          "fingerprint": "qq",
+          "publicKey": "Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE",
+          "shortId": "ead6bdba606219a2",
+          "spiderX": "/"
+        }
+      }
+    },
+    {
+      "tag": "screen-010",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "78ec29x.fi2.h1clayd.click",
+            "port": 443,
+            "users": [
+              {
+                "id": "537d8ade-134d-4ec2-905c-0187e7e1e22e",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/",
+          "mode": "auto"
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "78ec29x.fi2.h1clayd.click",
+          "fingerprint": "safari",
+          "publicKey": "WCuIW5EhUUfvOtDeVO-M7NjwXaE20zinTv3rpQ9erxs",
+          "shortId": "6f2d8ece33a96159"
+        }
+      }
+    },
+    {
+      "tag": "screen-011",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "35295cx.us8.h1clayd.click",
+            "port": 443,
+            "users": [
+              {
+                "id": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/1812842934d4",
+          "mode": "auto"
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "35295cx.us8.h1clayd.click",
+          "fingerprint": "ios",
+          "publicKey": "LsaTohbE6CqCH9UbYKwIybVXG3E5Wgz_X9czqas2LAI",
+          "shortId": "9acff4d98e2fbcc6"
+        }
+      }
+    },
+    {
+      "tag": "screen-012",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "fc82dfx.nl8.h1clayd.click",
+            "port": 443,
+            "users": [
+              {
+                "id": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/0616f2d729aa",
+          "mode": "auto"
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "fc82dfx.nl8.h1clayd.click",
+          "fingerprint": "safari",
+          "publicKey": "dtO7khFLUkpFDQOtNzo4Th4hJKLoPSY2VtD_9k4Hgiw",
+          "shortId": "7b2b1a14a6e0630d",
+          "spiderX": "/"
+        }
+      }
+    },
+    {
+      "tag": "screen-013",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "78ec29x.fi2.h1clayd.click",
+            "port": 443,
+            "users": [
+              {
+                "id": "537d8ade-134d-4ec2-905c-0187e7e1e22e",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/",
+          "mode": "auto"
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "78ec29x.fi2.h1clayd.click",
+          "fingerprint": "qq",
+          "publicKey": "WCuIW5EhUUfvOtDeVO-M7NjwXaE20zinTv3rpQ9erxs",
+          "shortId": "6f2d8ece33a96159"
+        }
+      }
+    },
+    {
+      "tag": "screen-014",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "api.ferrin.uk",
+            "port": 443,
+            "users": [
+              {
+                "id": "7d1a74fd-8a38-4a29-863f-5da53a9e557e",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/es",
+          "mode": "stream-one",
+          "extra": {
+            "xmux": {
+              "hMaxReusableSecs": "1140-1260",
+              "maxConnections": "3"
+            }
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "7d1a74fd.ferrin.uk",
+          "fingerprint": "safari",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "screen-015",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "35295cx.us8.h1clayd.click",
+            "port": 443,
+            "users": [
+              {
+                "id": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/1812842934d4",
+          "mode": "auto"
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "35295cx.us8.h1clayd.click",
+          "fingerprint": "qq",
+          "publicKey": "LsaTohbE6CqCH9UbYKwIybVXG3E5Wgz_X9czqas2LAI",
+          "shortId": "9acff4d98e2fbcc6"
+        }
+      }
+    },
+    {
+      "tag": "screen-016",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "78ec29x.fi2.h1clayd.click",
+            "port": 443,
+            "users": [
+              {
+                "id": "537d8ade-134d-4ec2-905c-0187e7e1e22e",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/",
+          "mode": "auto"
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "78ec29x.fi2.h1clayd.click",
+          "fingerprint": "chrome",
+          "publicKey": "WCuIW5EhUUfvOtDeVO-M7NjwXaE20zinTv3rpQ9erxs",
+          "shortId": "6f2d8ece33a96159"
+        }
+      }
+    },
+    {
+      "tag": "screen-017",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.144.49.138",
+            "port": 1152,
+            "users": [
+              {
+                "id": "e18f77f3-e518-4c8c-b230-c79e3708c7f4",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/",
+          "mode": "auto"
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "in.tradingview.com",
+          "fingerprint": "firefox",
+          "publicKey": "Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE",
+          "shortId": "ead6bdba606219a2"
         }
       }
     },
