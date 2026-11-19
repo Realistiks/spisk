@@ -1,8 +1,8 @@
 {
   "_meta": {
     "name": "VPN Screener: рабочие узлы из JSON-подписок",
-    "generated": "2026-11-19 14:25:49",
-    "count": 1
+    "generated": "2026-11-19 19:01:38",
+    "count": 3
   },
   "log": {
     "loglevel": "warning"
@@ -26,7 +26,9 @@
       "settings": {
         "default": "screen-001",
         "outbounds": [
-          "screen-001"
+          "screen-001",
+          "screen-002",
+          "screen-003"
         ]
       }
     },
@@ -36,11 +38,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "api.ferrin.uk",
+            "address": "35295cx.us8.h1clayd.click",
             "port": 443,
             "users": [
               {
-                "id": "7d1a74fd-8a38-4a29-863f-5da53a9e557e",
+                "id": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
                 "encryption": "none"
               }
             ]
@@ -54,13 +56,87 @@
           "tcpKeepAliveInterval": 60
         },
         "xhttpSettings": {
-          "path": "/es/?@MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI?ed=2048",
-          "mode": "stream-one"
+          "path": "/1812842934d4",
+          "mode": "auto"
         },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "7d1a74fd.ferrin.uk",
-          "fingerprint": "firefox"
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "35295cx.us8.h1clayd.click",
+          "fingerprint": "edge",
+          "publicKey": "LsaTohbE6CqCH9UbYKwIybVXG3E5Wgz_X9czqas2LAI",
+          "shortId": "9acff4d98e2fbcc6"
+        }
+      }
+    },
+    {
+      "tag": "screen-002",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "35295cx.us8.h1clayd.click",
+            "port": 443,
+            "users": [
+              {
+                "id": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/1812842934d4",
+          "mode": "auto"
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "35295cx.us8.h1clayd.click",
+          "fingerprint": "chrome",
+          "publicKey": "LsaTohbE6CqCH9UbYKwIybVXG3E5Wgz_X9czqas2LAI",
+          "shortId": "9acff4d98e2fbcc6"
+        }
+      }
+    },
+    {
+      "tag": "screen-003",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "35295cx.us8.h1clayd.click",
+            "port": 443,
+            "users": [
+              {
+                "id": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/1812842934d4",
+          "mode": "auto"
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "35295cx.us8.h1clayd.click",
+          "fingerprint": "ios",
+          "publicKey": "LsaTohbE6CqCH9UbYKwIybVXG3E5Wgz_X9czqas2LAI",
+          "shortId": "9acff4d98e2fbcc6"
         }
       }
     },
