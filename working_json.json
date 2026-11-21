@@ -1,7 +1,7 @@
 {
   "_meta": {
     "name": "VPN Screener: рабочие узлы из JSON-подписок",
-    "generated": "2026-11-21 10:38:03",
+    "generated": "2026-11-21 21:57:51",
     "count": 2
   },
   "log": {
@@ -37,11 +37,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.98.0",
+            "address": "107.150.93.43",
             "port": 443,
             "users": [
               {
-                "id": "97be5ac0-dae3-43c1-aae8-3fcb7b130c59",
+                "id": "e9958027-03be-4eb5-bcec-70415b2e4844",
                 "encryption": "none"
               }
             ]
@@ -56,42 +56,49 @@
         },
         "xhttpSettings": {
           "path": "/",
-          "host": "Org-ukrn-soeiwhdhshal-bssutudhdahuahese-beqhjdwter.maniyadg7shard.ir",
-          "mode": "stream-one"
+          "mode": "auto"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "org-ukrn-soeiwhdhshal-bssutudhdahuahese-beqhjdwter.maniyadg7shard.ir",
-          "fingerprint": "unsafe"
+          "serverName": "e9958027.ferrin.uk",
+          "fingerprint": "edge",
+          "alpn": [
+            "h2"
+          ]
         }
       }
     },
     {
       "tag": "screen-002",
-      "protocol": "trojan",
+      "protocol": "vless",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "170.168.5.123",
-            "port": 8228,
-            "password": "HAB6WFjL2pKev0cN3ML1hz6V4pj1_S00"
+            "address": "107.150.93.43",
+            "port": 443,
+            "users": [
+              {
+                "id": "e9958027-03be-4eb5-bcec-70415b2e4844",
+                "encryption": "none"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "xhttp",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60
         },
-        "grpcSettings": {
-          "serviceName": "trgrpc",
-          "multiMode": false
+        "xhttpSettings": {
+          "path": "/",
+          "mode": "auto"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "nl100.marshonet.store",
-          "fingerprint": "random",
+          "serverName": "e9958027.ferrin.uk",
+          "fingerprint": "firefox",
           "alpn": [
             "h2"
           ]
