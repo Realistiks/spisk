@@ -1,8 +1,8 @@
 {
   "_meta": {
     "name": "VPN Screener: рабочие узлы из JSON-подписок",
-    "generated": "2026-11-21 21:57:51",
-    "count": 2
+    "generated": "2026-11-22 12:23:23",
+    "count": 10
   },
   "log": {
     "loglevel": "warning"
@@ -27,12 +27,134 @@
         "default": "screen-001",
         "outbounds": [
           "screen-001",
-          "screen-002"
+          "screen-002",
+          "screen-003",
+          "screen-004",
+          "screen-005",
+          "screen-006",
+          "screen-007",
+          "screen-008",
+          "screen-009",
+          "screen-010"
         ]
       }
     },
     {
       "tag": "screen-001",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "5.175.221.251",
+            "port": 39405,
+            "users": [
+              {
+                "id": "ccecc81e-ff9a-4a77-8c6f-1bc95229726f",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/livefilm",
+          "host": "hostname",
+          "mode": "auto",
+          "extra": {
+            "mode": "auto",
+            "xPaddingBytes": "100-1000"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "gitlab.io",
+          "fingerprint": "chrome",
+          "publicKey": "92cFmXjn1L04XkJ3O1bb6QXV4Qr6epgjgl8E1vxcUU4",
+          "shortId": "eea994dbfe5d23eb",
+          "spiderX": "/62ef5a94284a5e6"
+        }
+      }
+    },
+    {
+      "tag": "screen-002",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "107.150.93.43",
+            "port": 443,
+            "users": [
+              {
+                "id": "e9958027-03be-4eb5-bcec-70415b2e4844",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/",
+          "host": "107.150.93.43",
+          "mode": "auto"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "e9958027.ferrin.uk",
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "tag": "screen-003",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "107.150.93.43",
+            "port": 443,
+            "users": [
+              {
+                "id": "e9958027-03be-4eb5-bcec-70415b2e4844",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/",
+          "mode": "auto"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "e9958027.ferrin.uk",
+          "fingerprint": "firefox",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "screen-004",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -69,7 +191,7 @@
       }
     },
     {
-      "tag": "screen-002",
+      "tag": "screen-005",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -98,9 +220,186 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "e9958027.ferrin.uk",
-          "fingerprint": "firefox",
+          "fingerprint": "safari",
           "alpn": [
             "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "screen-006",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "107.150.93.43",
+            "port": 443,
+            "users": [
+              {
+                "id": "e9958027-03be-4eb5-bcec-70415b2e4844",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "e9958027.ferrin.uk",
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "tag": "screen-007",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "107.150.93.43",
+            "port": 443,
+            "users": [
+              {
+                "id": "e9958027-03be-4eb5-bcec-70415b2e4844",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/",
+          "host": "107.150.93.43"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "e9958027.ferrin.uk",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "screen-008",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "107.150.93.43",
+            "port": 443,
+            "users": [
+              {
+                "id": "e9958027-03be-4eb5-bcec-70415b2e4844",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "e9958027.ferrin.uk",
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "tag": "screen-009",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.64.155.209",
+            "port": 8443,
+            "users": [
+              {
+                "id": "e16c3f43-8ece-4ce2-b62a-92df4c351d35",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/",
+          "mode": "auto",
+          "extra": {
+            "mode": "auto",
+            "xPaddingBytes": "100-1000"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sinavm3.soft10.ir",
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "screen-010",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "188.114.97.4",
+            "port": 443,
+            "users": [
+              {
+                "id": "83f51319-cb0a-43d8-abb3-ffff86c85d1b",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/v239325140",
+          "host": "m219.theonedesire.org",
+          "mode": "auto"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m219.theonedesire.org",
+          "fingerprint": "chrome",
+          "alpn": [
+            "h2",
+            "http/1.1"
           ]
         }
       }
