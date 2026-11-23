@@ -1,8 +1,8 @@
 {
   "_meta": {
     "name": "VPN Screener: рабочие узлы из JSON-подписок",
-    "generated": "2026-11-23 10:17:53",
-    "count": 11
+    "generated": "2026-11-23 21:19:55",
+    "count": 5
   },
   "log": {
     "loglevel": "warning"
@@ -30,18 +30,48 @@
           "screen-002",
           "screen-003",
           "screen-004",
-          "screen-005",
-          "screen-006",
-          "screen-007",
-          "screen-008",
-          "screen-009",
-          "screen-010",
-          "screen-011"
+          "screen-005"
         ]
       }
     },
     {
       "tag": "screen-001",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "157.228.157.19",
+            "port": 25813,
+            "users": [
+              {
+                "id": "cb7ceae2-6f47-4059-8bf0-371b62a0f0ce",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/b84b87f75dfc",
+          "mode": "auto"
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "br.jetstoreapp.ru",
+          "fingerprint": "firefox",
+          "publicKey": "OgGK9DS-5AAZDgDjHwNWhx_VOQ2OjEUReo-0-f_3Zxc",
+          "shortId": "421f11a52c02c80d"
+        }
+      }
+    },
+    {
+      "tag": "screen-002",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -64,51 +94,22 @@
           "tcpKeepAliveInterval": 60
         },
         "xhttpSettings": {
-          "path": "/es/?@MARAMBASHIMARAMBASHIMARAMBASHIMARAMBASHI?ed=2048",
-          "mode": "stream-one"
+          "path": "/es",
+          "mode": "stream-one",
+          "extra": {
+            "xmux": {
+              "hMaxReusableSecs": "1140-1260",
+              "maxConnections": "3"
+            }
+          }
         },
         "security": "tls",
         "tlsSettings": {
           "serverName": "7d1a74fd.ferrin.uk",
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "screen-002",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "chatgpt.com",
-            "port": 8443,
-            "users": [
-              {
-                "id": "c2425034-91ef-44bf-9fd4-f2be9c1e989a",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/",
-          "mode": "auto",
-          "extra": {
-            "mode": "auto",
-            "xPaddingBytes": "100-1000"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "sinavm3.soft10.ir",
-          "fingerprint": "chrome"
+          "fingerprint": "safari",
+          "alpn": [
+            "h2"
+          ]
         }
       }
     },
@@ -118,11 +119,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "sinavm3.soft10.ir",
-            "port": 8443,
+            "address": "folio.basterdym.asia",
+            "port": 443,
             "users": [
               {
-                "id": "c2425034-91ef-44bf-9fd4-f2be9c1e989a",
+                "id": "0b6a7fe0-206b-4071-9f96-cd397d1ec01a",
                 "encryption": "none"
               }
             ]
@@ -136,21 +137,16 @@
           "tcpKeepAliveInterval": 60
         },
         "xhttpSettings": {
-          "path": "/",
-          "mode": "auto",
-          "extra": {
-            "mode": "auto",
-            "xPaddingBytes": "100-1000"
-          }
+          "path": "/api/library/",
+          "host": "folio.basterdym.asia",
+          "mode": "packet-up"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "sinavm3.soft10.ir",
-          "fingerprint": "chrome",
+          "serverName": "folio.basterdym.asia",
+          "fingerprint": "firefox",
           "alpn": [
-            "h2",
-            "h3",
-            "http/1.1"
+            "h2"
           ]
         }
       }
@@ -161,11 +157,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "chatgpt.com",
-            "port": 8443,
+            "address": "api.ferrin.uk",
+            "port": 443,
             "users": [
               {
-                "id": "c2425034-91ef-44bf-9fd4-f2be9c1e989a",
+                "id": "7d1a74fd-8a38-4a29-863f-5da53a9e557e",
                 "encryption": "none"
               }
             ]
@@ -179,17 +175,13 @@
           "tcpKeepAliveInterval": 60
         },
         "xhttpSettings": {
-          "path": "/",
-          "mode": "auto",
-          "extra": {
-            "mode": "auto",
-            "xPaddingBytes": "100-1000"
-          }
+          "path": "/es/?@MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI?ed=2048",
+          "mode": "stream-one"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "sinavm3.soft10.ir",
-          "fingerprint": "firefox"
+          "serverName": "7d1a74fd.ferrin.uk",
+          "fingerprint": "android"
         }
       }
     },
@@ -199,11 +191,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "sinavm3.soft10.ir",
-            "port": 8443,
+            "address": "api.ferrin.uk",
+            "port": 443,
             "users": [
               {
-                "id": "c2425034-91ef-44bf-9fd4-f2be9c1e989a",
+                "id": "7d1a74fd-8a38-4a29-863f-5da53a9e557e",
                 "encryption": "none"
               }
             ]
@@ -217,265 +209,13 @@
           "tcpKeepAliveInterval": 60
         },
         "xhttpSettings": {
-          "path": "/",
-          "mode": "auto",
-          "extra": {
-            "mode": "auto",
-            "xPaddingBytes": "100-1000"
-          }
+          "path": "/es",
+          "mode": "stream-one"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "sinavm3.soft10.ir",
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "screen-006",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "chatgpt.com",
-            "port": 8443,
-            "users": [
-              {
-                "id": "c2425034-91ef-44bf-9fd4-f2be9c1e989a",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/",
-          "mode": "auto",
-          "extra": {
-            "mode": "auto",
-            "xPaddingBytes": "100-1000"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "sinavm3.soft10.ir",
-          "fingerprint": "chrome",
-          "alpn": [
-            "h2",
-            "h3",
-            "http/1.1"
-          ]
-        }
-      }
-    },
-    {
-      "tag": "screen-007",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "chatgpt.com",
-            "port": 8443,
-            "users": [
-              {
-                "id": "a20ea704-ec9d-4c5d-9b12-fa760cdf2290",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/",
-          "mode": "auto",
-          "extra": {
-            "mode": "auto",
-            "xPaddingBytes": "100-1000"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "sinavm2.soft10.ir",
-          "fingerprint": "chrome",
-          "alpn": [
-            "h2",
-            "h3",
-            "http/1.1"
-          ]
-        }
-      }
-    },
-    {
-      "tag": "screen-008",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "chatgpt.com",
-            "port": 8443,
-            "users": [
-              {
-                "id": "a20ea704-ec9d-4c5d-9b12-fa760cdf2290",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/",
-          "mode": "auto",
-          "extra": {
-            "mode": "auto",
-            "xPaddingBytes": "100-1000"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "sinavm2.soft10.ir",
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "screen-009",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "172.64.155.209",
-            "port": 8443,
-            "users": [
-              {
-                "id": "a20ea704-ec9d-4c5d-9b12-fa760cdf2290",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/",
-          "mode": "auto",
-          "extra": {
-            "mode": "auto",
-            "xPaddingBytes": "100-1000"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "sinavm2.soft10.ir",
-          "fingerprint": "chrome",
-          "alpn": [
-            "h2",
-            "h3",
-            "http/1.1"
-          ]
-        }
-      }
-    },
-    {
-      "tag": "screen-010",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "chatgpt.com",
-            "port": 8443,
-            "users": [
-              {
-                "id": "c2425034-91ef-44bf-9fd4-f2be9c1e989a",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/",
-          "mode": "auto",
-          "extra": {
-            "mode": "auto",
-            "xPaddingBytes": "100-1000"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "sinavm3.soft10.ir",
-          "fingerprint": "firefox",
-          "alpn": [
-            "h2",
-            "h3",
-            "http/1.1"
-          ]
-        }
-      }
-    },
-    {
-      "tag": "screen-011",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "172.64.155.209",
-            "port": 8443,
-            "users": [
-              {
-                "id": "a20ea704-ec9d-4c5d-9b12-fa760cdf2290",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/",
-          "mode": "auto",
-          "extra": {
-            "mode": "auto",
-            "xPaddingBytes": "100-1000"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "sinavm2.soft10.ir",
-          "fingerprint": "chrome"
+          "serverName": "7d1a74fd.ferrin.uk",
+          "fingerprint": "qq"
         }
       }
     },
