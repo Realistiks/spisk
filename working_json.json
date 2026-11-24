@@ -1,8 +1,8 @@
 {
   "_meta": {
     "name": "VPN Screener: рабочие узлы из JSON-подписок",
-    "generated": "2026-11-23 21:19:55",
-    "count": 5
+    "generated": "2026-11-24 22:46:32",
+    "count": 12
   },
   "log": {
     "loglevel": "warning"
@@ -30,7 +30,14 @@
           "screen-002",
           "screen-003",
           "screen-004",
-          "screen-005"
+          "screen-005",
+          "screen-006",
+          "screen-007",
+          "screen-008",
+          "screen-009",
+          "screen-010",
+          "screen-011",
+          "screen-012"
         ]
       }
     },
@@ -40,11 +47,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "157.228.157.19",
-            "port": 25813,
+            "address": "moonwort.gerqix.autos",
+            "port": 443,
             "users": [
               {
-                "id": "cb7ceae2-6f47-4059-8bf0-371b62a0f0ce",
+                "id": "83706ae4-be2f-4b2b-8079-c3eb4e0b2e3e",
                 "encryption": "none"
               }
             ]
@@ -58,15 +65,14 @@
           "tcpKeepAliveInterval": 60
         },
         "xhttpSettings": {
-          "path": "/b84b87f75dfc",
-          "mode": "auto"
+          "path": "/api/de6/preview/",
+          "host": "birchmeadow.moltex.click",
+          "mode": "packet-up"
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "br.jetstoreapp.ru",
-          "fingerprint": "firefox",
-          "publicKey": "OgGK9DS-5AAZDgDjHwNWhx_VOQ2OjEUReo-0-f_3Zxc",
-          "shortId": "421f11a52c02c80d"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "birchmeadow.moltex.click",
+          "fingerprint": "firefox"
         }
       }
     },
@@ -76,11 +82,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "api.ferrin.uk",
+            "address": "moonwort.gerqix.autos",
             "port": 443,
             "users": [
               {
-                "id": "7d1a74fd-8a38-4a29-863f-5da53a9e557e",
+                "id": "83706ae4-be2f-4b2b-8079-c3eb4e0b2e3e",
                 "encryption": "none"
               }
             ]
@@ -94,19 +100,14 @@
           "tcpKeepAliveInterval": 60
         },
         "xhttpSettings": {
-          "path": "/es",
-          "mode": "stream-one",
-          "extra": {
-            "xmux": {
-              "hMaxReusableSecs": "1140-1260",
-              "maxConnections": "3"
-            }
-          }
+          "path": "/api/de6/preview/",
+          "host": "birchmeadow.moltex.click",
+          "mode": "packet-up"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "7d1a74fd.ferrin.uk",
-          "fingerprint": "safari",
+          "serverName": "birchmeadow.moltex.click",
+          "fingerprint": "ios",
           "alpn": [
             "h2"
           ]
@@ -119,11 +120,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "folio.basterdym.asia",
+            "address": "moonwort.gerqix.autos",
             "port": 443,
             "users": [
               {
-                "id": "0b6a7fe0-206b-4071-9f96-cd397d1ec01a",
+                "id": "83706ae4-be2f-4b2b-8079-c3eb4e0b2e3e",
                 "encryption": "none"
               }
             ]
@@ -137,13 +138,13 @@
           "tcpKeepAliveInterval": 60
         },
         "xhttpSettings": {
-          "path": "/api/library/",
-          "host": "folio.basterdym.asia",
+          "path": "/api/de6/preview/",
+          "host": "birchmeadow.moltex.click",
           "mode": "packet-up"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "folio.basterdym.asia",
+          "serverName": "birchmeadow.moltex.click",
           "fingerprint": "firefox",
           "alpn": [
             "h2"
@@ -157,11 +158,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "api.ferrin.uk",
+            "address": "146.75.32.177",
             "port": 443,
             "users": [
               {
-                "id": "7d1a74fd-8a38-4a29-863f-5da53a9e557e",
+                "id": "e15225fb-0998-4719-8391-eede56f4d472",
                 "encryption": "none"
               }
             ]
@@ -175,18 +176,239 @@
           "tcpKeepAliveInterval": 60
         },
         "xhttpSettings": {
-          "path": "/es/?@MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI?ed=2048",
-          "mode": "stream-one"
+          "path": "/",
+          "host": "huryuk.global.ssl.fastly.net",
+          "mode": "packet-up"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "7d1a74fd.ferrin.uk",
-          "fingerprint": "android"
+          "serverName": "zd.fastly.com",
+          "fingerprint": "firefox",
+          "alpn": [
+            "h3"
+          ]
         }
       }
     },
     {
       "tag": "screen-005",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "hawthorn.falmero.store",
+            "port": 443,
+            "users": [
+              {
+                "id": "83706ae4-be2f-4b2b-8079-c3eb4e0b2e3e",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/api/de7/preview/",
+          "host": "paperbirch.merlano.monster",
+          "mode": "packet-up"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "paperbirch.merlano.monster",
+          "fingerprint": "firefox",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "screen-006",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "146.75.32.177",
+            "port": 443,
+            "users": [
+              {
+                "id": "e15225fb-0998-4719-8391-eede56f4d472",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/",
+          "host": "huryuk.global.ssl.fastly.net",
+          "mode": "packet-up"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "zd.fastly.com",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "screen-007",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "hawthorn.falmero.store",
+            "port": 443,
+            "users": [
+              {
+                "id": "83706ae4-be2f-4b2b-8079-c3eb4e0b2e3e",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/api/de7/preview/",
+          "host": "paperbirch.merlano.monster",
+          "mode": "packet-up"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "paperbirch.merlano.monster",
+          "fingerprint": "qq",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "screen-008",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "146.75.58.98",
+            "port": 443,
+            "users": [
+              {
+                "id": "e15225fb-0998-4719-8391-eede56f4d472",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/",
+          "host": "huryuk.global.ssl.fastly.net",
+          "mode": "packet-up"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "zd.fastly.com",
+          "fingerprint": "firefox",
+          "alpn": [
+            "h3"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "screen-009",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "146.75.32.177",
+            "port": 443,
+            "users": [
+              {
+                "id": "e15225fb-0998-4719-8391-eede56f4d472",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/",
+          "host": "huryuk.global.ssl.fastly.net"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "zd.fastly.com",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "screen-010",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "168.113.142.192",
+            "port": 443,
+            "users": [
+              {
+                "id": "83706ae4-be2f-4b2b-8079-c3eb4e0b2e3e",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/api/de6/preview/",
+          "host": "birchmeadow.moltex.click"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "birchmeadow.moltex.click",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "screen-011",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -209,13 +431,44 @@
           "tcpKeepAliveInterval": 60
         },
         "xhttpSettings": {
-          "path": "/es",
-          "mode": "stream-one"
+          "path": "/es/?@MARAMBASHI"
+        },
+        "security": "tls",
+        "tlsSettings": {}
+      }
+    },
+    {
+      "tag": "screen-012",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "moonwort.gerqix.autos",
+            "port": 443,
+            "users": [
+              {
+                "id": "83706ae4-be2f-4b2b-8079-c3eb4e0b2e3e",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/api/de6/preview/",
+          "host": "birchmeadow.moltex.click",
+          "mode": "packet-up"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "7d1a74fd.ferrin.uk",
-          "fingerprint": "qq"
+          "serverName": "birchmeadow.moltex.click",
+          "fingerprint": "safari"
         }
       }
     },
