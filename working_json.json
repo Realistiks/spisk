@@ -1,8 +1,8 @@
 {
   "_meta": {
     "name": "VPN Screener: рабочие узлы из JSON-подписок",
-    "generated": "2026-11-25 20:51:31",
-    "count": 3
+    "generated": "2026-11-26 07:53:21",
+    "count": 4
   },
   "log": {
     "loglevel": "warning"
@@ -28,7 +28,8 @@
         "outbounds": [
           "screen-001",
           "screen-002",
-          "screen-003"
+          "screen-003",
+          "screen-004"
         ]
       }
     },
@@ -38,11 +39,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "moonwort.gerqix.autos",
+            "address": "193.42.109.29",
             "port": 443,
             "users": [
               {
-                "id": "83706ae4-be2f-4b2b-8079-c3eb4e0b2e3e",
+                "id": "db4b5d79-a741-41c8-9769-c1ba3d7ac374",
                 "encryption": "none"
               }
             ]
@@ -56,16 +57,30 @@
           "tcpKeepAliveInterval": 60
         },
         "xhttpSettings": {
-          "path": "/api/de6/preview/",
-          "host": "birchmeadow.moltex.click",
-          "mode": "packet-up"
+          "path": "/",
+          "host": "mama1455.baklajann.ru",
+          "mode": "auto",
+          "extra": {
+            "mode": "packet-up",
+            "path": "/",
+            "xmux": {
+              "maxConnections": 4,
+              "maxConcurrency": 0,
+              "cMaxReuseTimes": 0,
+              "hMaxRequestTimes": "600-900",
+              "hMaxReusableSecs": "1800-3000",
+              "hKeepAlivePeriod": 0
+            }
+          }
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "birchmeadow.moltex.click",
-          "fingerprint": "safari",
+          "serverName": "mama1455.baklajann.ru",
+          "fingerprint": "chrome",
           "alpn": [
-            "h2"
+            "h2",
+            "h3",
+            "http/1.1"
           ]
         }
       }
@@ -76,11 +91,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "larkspur.gerqix.online",
+            "address": "193.42.109.29",
             "port": 443,
             "users": [
               {
-                "id": "83706ae4-be2f-4b2b-8079-c3eb4e0b2e3e",
+                "id": "db4b5d79-a741-41c8-9769-c1ba3d7ac374",
                 "encryption": "none"
               }
             ]
@@ -94,17 +109,26 @@
           "tcpKeepAliveInterval": 60
         },
         "xhttpSettings": {
-          "path": "/api/de1/preview/",
-          "host": "paperbirch.merlano.monster",
-          "mode": "packet-up"
+          "path": "/",
+          "host": "mama1455.baklajann.ru",
+          "mode": "auto",
+          "extra": {
+            "mode": "packet-up",
+            "path": "/",
+            "xmux": {
+              "maxConnections": 4,
+              "maxConcurrency": 0,
+              "cMaxReuseTimes": 0,
+              "hMaxRequestTimes": "600-900",
+              "hMaxReusableSecs": "1800-3000",
+              "hKeepAlivePeriod": 0
+            }
+          }
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "paperbirch.merlano.monster",
-          "fingerprint": "edge",
-          "alpn": [
-            "h2"
-          ]
+          "serverName": "mama1455.baklajann.ru",
+          "fingerprint": "chrome"
         }
       }
     },
@@ -114,11 +138,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "windflower.elvano.website",
+            "address": "193.42.109.29",
             "port": 443,
             "users": [
               {
-                "id": "0b6a7fe0-206b-4071-9f96-cd397d1ec01a",
+                "id": "db4b5d79-a741-41c8-9769-c1ba3d7ac374",
                 "encryption": "none"
               }
             ]
@@ -132,14 +156,65 @@
           "tcpKeepAliveInterval": 60
         },
         "xhttpSettings": {
-          "path": "/api/de3/preview/",
-          "host": "paperbirch.merlano.monster",
-          "mode": "packet-up"
+          "path": "/",
+          "host": "mama542.baklajann.ru",
+          "mode": "auto",
+          "extra": {
+            "mode": "packet-up",
+            "path": "/",
+            "xmux": {
+              "maxConnections": 4,
+              "maxConcurrency": 0,
+              "cMaxReuseTimes": 0,
+              "hMaxRequestTimes": "600-900",
+              "hMaxReusableSecs": "1800-3000",
+              "hKeepAlivePeriod": 0
+            }
+          }
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "paperbirch.merlano.monster",
-          "fingerprint": "safari",
+          "serverName": "mama542.baklajann.ru",
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "screen-004",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "92.223.124.62",
+            "port": 443,
+            "users": [
+              {
+                "id": "35f8defb-c734-4ca6-907f-f36a49c6c389",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/sakeneko?ed=2048",
+          "host": "my-site-44imwqft.gcorecdn.com",
+          "mode": "auto",
+          "extra": {
+            "mode": "auto",
+            "xPaddingBytes": "100-1000"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "portal.gcore.com",
+          "fingerprint": "chrome",
           "alpn": [
             "h2"
           ]
